@@ -1,0 +1,12 @@
+#!/usr/bin/env ruby
+
+require 'fileutils'
+
+dir = ENV['HOME'] + "/Library/Developer/Xcode/Templates/File\ Templates/Custom\ Templates"
+FileUtils.mkdir_p dir
+
+Dir.glob("*.xctemplate").each do |name|
+  template = "#{dir}/#{name}"
+  FileUtils.rm_r template if File.exists? template
+  FileUtils.cp_r name, template
+end
