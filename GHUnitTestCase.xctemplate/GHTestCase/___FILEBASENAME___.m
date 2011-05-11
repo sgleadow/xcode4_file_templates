@@ -1,5 +1,11 @@
 
-#import "___FILEBASENAME___.h"
+#import <GHUnitIOS/GHUnit.h>
+
+@interface ___FILEBASENAMEASIDENTIFIER___ : ___VARIABLE_cocoaSubclass___ {
+  
+}
+
+@end
 
 @implementation ___FILEBASENAMEASIDENTIFIER___
 
