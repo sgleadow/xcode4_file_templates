@@ -8,13 +8,13 @@
 		<string>public.objective-c-plus-plus-source</string>
 	</array>
 	<key>DefaultCompletionName</key>
-	<string>MyClass</string>
+	<string>NSObject+MyCategory</string>
 	<key>Description</key>
 	<string>An Objective-C category on a standard object</string>
 	<key>Kind</key>
 	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
 	<key>MainTemplateFile</key>
-	<string>___VARIABLE_cocoaCategory___+___FILEBASENAME___.m</string>
+	<string>___FILEBASENAME___.m</string>
 	<key>Options</key>
 	<array>
 		<dict>
@@ -39,6 +39,24 @@
 				<string>NSValue</string>
 				<string>UIView</string>
 				<string>UIViewController</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>MyCategory</string>
+			<key>Description</key>
+			<string>Name of category</string>
+			<key>Identifier</key>
+			<string>cocoaCategoryName</string>
+			<key>Name</key>
+			<string>Category name</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>combo</string>
+			<key>Values</key>
+			<array>
+				<string>MyCategory</string>
 			</array>
 		</dict>
 	</array>
