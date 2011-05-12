@@ -15,27 +15,6 @@
 	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
 	<key>MainTemplateFile</key>
 	<string>___FILEBASENAME___.m</string>
-	<key>Options</key>
-	<array>
-		<dict>
-			<key>Default</key>
-			<string>GHTestCase</string>
-			<key>Description</key>
-			<string>What class to subclass in the new file</string>
-			<key>Identifier</key>
-			<string>cocoaSubclass</string>
-			<key>Name</key>
-			<string>Subclass of</string>
-			<key>Required</key>
-			<true/>
-			<key>Type</key>
-			<string>combo</string>
-			<key>Values</key>
-			<array>
-				<string>GHTestCase</string>
-			</array>
-		</dict>
-	</array>
 	<key>Platforms</key>
 	<array>
 		<string>com.apple.platform.macosx</string>
