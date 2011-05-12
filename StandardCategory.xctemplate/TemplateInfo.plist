@@ -8,9 +8,9 @@
 		<string>public.objective-c-plus-plus-source</string>
 	</array>
 	<key>DefaultCompletionName</key>
-	<string>NSObject+MyCategory</string>
+	<string>Category</string>
 	<key>Description</key>
-	<string>An Objective-C category on a standard object</string>
+	<string>An Objective-C category</string>
 	<key>Kind</key>
 	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
 	<key>MainTemplateFile</key>
@@ -21,52 +21,36 @@
 			<key>Default</key>
 			<string>NSObject</string>
 			<key>Description</key>
-			<string>What class to define a category on</string>
+			<string>What class to add a category to</string>
 			<key>Identifier</key>
-			<string>cocoaCategory</string>
+			<string>categoryClass</string>
 			<key>Name</key>
 			<string>Category on</string>
 			<key>Required</key>
 			<true/>
 			<key>Type</key>
-			<string>combo</string>
-			<key>Values</key>
-			<array>
-				<string>NSObject</string>
-				<string>NSString</string>
-				<string>NSArray</string>
-				<string>NSDictionary</string>
-				<string>NSValue</string>
-				<string>UIView</string>
-				<string>UIViewController</string>
-			</array>
+			<string>text</string>
 		</dict>
 		<dict>
 			<key>Default</key>
-			<string>MyCategory</string>
+			<string>Category</string>
 			<key>Description</key>
-			<string>Name of category</string>
+			<string>What to name the category</string>
 			<key>Identifier</key>
-			<string>cocoaCategoryName</string>
+			<string>categoryName</string>
 			<key>Name</key>
 			<string>Category name</string>
 			<key>Required</key>
 			<true/>
 			<key>Type</key>
-			<string>combo</string>
-			<key>Values</key>
-			<array>
-				<string>MyCategory</string>
-			</array>
+			<string>text</string>
 		</dict>
 	</array>
 	<key>Platforms</key>
 	<array>
 		<string>com.apple.platform.macosx</string>
 	</array>
-	<key>SortOrder</key>
-	<string>1</string>
 	<key>Summary</key>
-	<string>An Objective-C category on a standard object</string>
+	<string>An Objective-C category</string>
 </dict>
 </plist>

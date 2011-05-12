@@ -1,5 +1,4 @@
 
-
-@interface ___VARIABLE_cocoaCategory___  (___VARIABLE_cocoaCategoryName___)
+@interface ___VARIABLE_categoryClass___ (___VARIABLE_categoryName___)
 
 @end
