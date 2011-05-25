@@ -1,5 +1,6 @@
 
-@interface ___FILEBASENAMEASIDENTIFIER___ : NSObject {
+@interface ___FILEBASENAMEASIDENTIFIER___ : NSObject
+{
     
 }
 

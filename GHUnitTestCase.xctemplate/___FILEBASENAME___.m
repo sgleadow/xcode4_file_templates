@@ -1,5 +1,6 @@
 
-@interface ___FILEBASENAMEASIDENTIFIER___ : GHTestCase {
+@interface ___FILEBASENAMEASIDENTIFIER___ : GHTestCase
+{
     
 }
 
@@ -7,18 +8,21 @@
 
 @implementation ___FILEBASENAMEASIDENTIFIER___
 
-- (void)setUp {
+- (void)setUp
+{
     
 }
 
-- (void)tearDown {
+- (void)tearDown
+{
     
 }
 
 #pragma mark -
 #pragma mark Tests
 
-- (void)testObjectShouldDoSomething {
+- (void)testObjectShouldDoSomething
+{
     GHAssertTrue(YES, "It does do something");
 }
 

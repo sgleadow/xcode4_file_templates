@@ -5,7 +5,8 @@
 
 //@synthesize propertyName
 
-- (void)dealloc {
+- (void)dealloc
+{
     
     [super dealloc];
 }
