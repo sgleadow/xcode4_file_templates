@@ -2,7 +2,7 @@
 
 require 'fileutils'
 
-dir = ENV['HOME'] + "/Library/Developer/Xcode/Templates/File\ Templates/Custom\ Templates"
+dir = File.expand_path "~/Library/Developer/Xcode/Templates/File\ Templates/Custom\ Templates"
 FileUtils.mkdir_p dir
 
 Dir.glob("*.xctemplate").each do |name|
