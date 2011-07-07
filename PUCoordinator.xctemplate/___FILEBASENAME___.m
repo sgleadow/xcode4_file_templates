@@ -1,4 +1,3 @@
-
 #import "___FILEBASENAME___.h"
 
 @implementation ___FILEBASENAMEASIDENTIFIER___
@@ -7,23 +6,24 @@
 
 - (void)dealloc
 {
-	//PU_RELEASE(propertyName);
+    //PU_RELEASE(propertyName);
+    
     [super dealloc];
 }
 
 + (___FILEBASENAMEASIDENTIFIER___ *)coordinator
 {
-	return [[[[self class] alloc] init] autorelease];
+    return [[[[self class] alloc] init] autorelease];
 }
 
 - (id)init
 {
-	if((self = [super init]))
-	{
-		
-	}
-	
-	return self;
+    if((self = [super init]))
+    {
+        
+    }
+    
+    return self;
 }
 
 #pragma mark -
@@ -31,12 +31,12 @@
 
 - (UIView *)view
 {
-	return nil;
+    return nil;
 }
 
 - (void)releaseView
 {
-	// release all views here
+    // release all views here
 }
 
 #pragma mark -
