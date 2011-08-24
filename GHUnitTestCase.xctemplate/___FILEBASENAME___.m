@@ -23,7 +23,7 @@
 
 - (void)testObjectShouldDoSomething
 {
-    GHAssertTrue(YES, "It does do something");
+    GHAssertTrue(YES, @"It does do something");
 }
 
 @end
