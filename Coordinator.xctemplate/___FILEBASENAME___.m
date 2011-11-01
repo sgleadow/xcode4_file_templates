@@ -2,11 +2,10 @@
 
 @implementation ___FILEBASENAMEASIDENTIFIER___
 
-//PU_SYNTHESIZE(propertyName);
+//@synthesize var = var_;
 
 - (void)dealloc
 {
-    //PU_RELEASE(propertyName);
     
     [super dealloc];
 }
@@ -27,7 +26,7 @@
 }
 
 #pragma mark -
-#pragma mark PUCoordinator
+#pragma mark ViewCoordinator
 
 - (UIView *)view
 {

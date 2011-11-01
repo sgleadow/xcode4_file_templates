@@ -3,11 +3,11 @@
 
 @implementation ___FILEBASENAMEASIDENTIFIER___
 
-//PU_SYNTHESIZE(propertyName)
+//@synthesize var = var_;
 
 - (void)dealloc
 {
-    //PU_RELEASE(propertyName);
+    //RELEASE(propertyName);
     
     [super dealloc];
 }

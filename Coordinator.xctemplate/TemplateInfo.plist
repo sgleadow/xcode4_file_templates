@@ -8,7 +8,7 @@
 		<string>public.objective-c-plus-plus-source</string>
 	</array>
 	<key>DefaultCompletionName</key>
-	<string>PUMyClass</string>
+	<string>MyCoordinator</string>
 	<key>Description</key>
 	<string>Co-ordinator class</string>
 	<key>Kind</key>
