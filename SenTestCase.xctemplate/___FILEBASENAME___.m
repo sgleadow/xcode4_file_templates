@@ -2,7 +2,7 @@
 
 @interface ___FILEBASENAMEASIDENTIFIER___ : SenTestCase
 {
-    
+  
 }
 
 @end
@@ -11,20 +11,19 @@
 
 - (void)setUp
 {
-    
+  
 }
 
 - (void)tearDown
 {
-    
+  
 }
 
-#pragma mark -
-#pragma mark Tests
+#pragma mark - Tests
 
 - (void)testObjectShouldDoSomething
 {
-    STAssertTrue(YES, @"It does do something");
+  STAssertTrue(YES, @"It does do something");
 }
 
 @end

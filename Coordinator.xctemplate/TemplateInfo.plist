@@ -17,7 +17,7 @@
 	<string>___FILEBASENAME___.m</string>
 	<key>Platforms</key>
 	<array>
-		<string>com.apple.platform.macosx</string>
+		<string>com.apple.platform.ios</string>
 	</array>
 	<key>SortOrder</key>
 	<string>1</string>

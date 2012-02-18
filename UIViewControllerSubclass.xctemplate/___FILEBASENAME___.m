@@ -10,43 +10,41 @@
 
 - (void)dealloc
 {
-    //RELEASE(propertyName);
-    
-    [self releaseViews];
-    [super dealloc];
+  //RELEASE(propertyName);
+  
+  [self releaseViews];
+  [super dealloc];
 }
 
 - (void)releaseViews
 {
-    
+  
 }
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
-    if((self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil]))
-    {
-        
-    }
-    
-    return self;
+  if((self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil]))
+  {
+      
+  }
+  
+  return self;
 }
 
-#pragma mark -
-#pragma mark UIViewController
+#pragma mark - UIViewController
 
 - (void)loadView
 {
-    [super loadView];
-    //UIView *view = [self view];
+  [super loadView];
+  //UIView *view = [self view];
 }
 
 - (void)viewDidUnload
 {
-    [self releaseViews];
-    [super viewDidUnload];
+  [self releaseViews];
+  [super viewDidUnload];
 }
 
-#pragma mark -
-#pragma mark Other methods
+#pragma mark - Other methods
 
 @end

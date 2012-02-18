@@ -6,39 +6,37 @@
 
 - (void)dealloc
 {
-    
-    [super dealloc];
+  
+  [super dealloc];
 }
 
 + (___FILEBASENAMEASIDENTIFIER___ *)coordinator
 {
-    return [[[[self class] alloc] init] autorelease];
+  return [[[[self class] alloc] init] autorelease];
 }
 
 - (id)init
 {
-    if((self = [super init]))
-    {
-        
-    }
-    
-    return self;
+  if((self = [super init]))
+  {
+      
+  }
+  
+  return self;
 }
 
-#pragma mark -
-#pragma mark ViewCoordinator
+#pragma mark - ViewCoordinator
 
 - (UIView *)view
 {
-    return nil;
+  return nil;
 }
 
 - (void)releaseView
 {
-    // release all views here
+  // release all views here
 }
 
-#pragma mark -
-#pragma mark Other methods
+#pragma mark - Other methods
 
 @end

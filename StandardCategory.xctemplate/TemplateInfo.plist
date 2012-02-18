@@ -48,7 +48,7 @@
 	</array>
 	<key>Platforms</key>
 	<array>
-		<string>com.apple.platform.macosx</string>
+		<string>com.apple.platform.ios</string>
 	</array>
 	<key>Summary</key>
 	<string>An Objective-C category</string>

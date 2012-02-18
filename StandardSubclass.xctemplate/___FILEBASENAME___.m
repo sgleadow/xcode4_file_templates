@@ -1,4 +1,3 @@
-
 #import "___FILEBASENAME___.h"
 
 @implementation ___FILEBASENAMEASIDENTIFIER___
@@ -7,24 +6,21 @@
 
 - (void)dealloc
 {
-    //RELEASE(propertyName);
-    
-    [super dealloc];
+  //RELEASE(propertyName);
+  
+  [super dealloc];
 }
 
 - (id)init
 {
-    if((self = [super init]))
-    {
-      
-    }
+  if((self = [super init]))
+  {
     
-    return self;
+  }
+  
+  return self;
 }
 
-#pragma mark -
-#pragma mark Other methods
-
-
+#pragma mark - Other methods
 
 @end

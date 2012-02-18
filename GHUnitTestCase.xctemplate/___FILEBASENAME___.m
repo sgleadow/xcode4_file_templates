@@ -1,7 +1,7 @@
 
 @interface ___FILEBASENAMEASIDENTIFIER___ : GHTestCase
 {
-    
+  
 }
 
 @end
@@ -10,20 +10,19 @@
 
 - (void)setUp
 {
-    
+  
 }
 
 - (void)tearDown
 {
-    
+  
 }
 
-#pragma mark -
-#pragma mark Tests
+#pragma mark - Tests
 
 - (void)testObjectShouldDoSomething
 {
-    GHAssertTrue(YES, @"It does do something");
+  GHAssertTrue(YES, @"It does do something");
 }
 
 @end
