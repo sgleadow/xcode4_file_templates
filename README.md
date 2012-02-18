@@ -5,11 +5,11 @@ Installation
 ------------
 * open terminal
 
-`$> git clone git@github.com:sgleadow/xcode4_file_tempaltes.git`
+`git clone git://github.com/sgleadow/xcode4_file_tempaltes.git`
 
-`$> cd xcode4_file_templates`
+`cd xcode4_file_templates`
 
-`$> ./install_templates`
+`./install_templates`
 
 Description
 -----------
