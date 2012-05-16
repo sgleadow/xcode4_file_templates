@@ -23,5 +23,7 @@
 	<string>1</string>
 	<key>Summary</key>
 	<string>SenTestCase subclass</string>
+	<key>BuildableType</key>
+	<string>Test</string>
 </dict>
 </plist>
