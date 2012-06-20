@@ -5,7 +5,7 @@ Installation
 ------------
 * open terminal
 
-`git clone git://github.com/sgleadow/xcode4_file_tempaltes.git`
+`git clone git://github.com/sgleadow/xcode4_file_templates.git`
 
 `cd xcode4_file_templates`
 
