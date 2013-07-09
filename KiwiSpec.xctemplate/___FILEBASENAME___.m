@@ -2,21 +2,18 @@
 
 SPEC_BEGIN(___FILEBASENAMEASIDENTIFIER___)
 
-describe(@"something about ___FILEBASENAMEASIDENTIFIER___", ^{
+describe(@"an object", ^{
+  __block NSObject *item;
     
-    __block NSObject *item;
-    
-    beforeEach(^{
-        item = [[NSObject alloc] init];
+	beforeEach(^{
+    item = [[NSObject alloc] init];
+	});
+
+	context(@"when initialised", ^{
+    it(@"should have been created", ^{
+        [item shouldNotBeNil];
     });
-    
-    context(@"initial state", ^{
-        it(@"should have been created", ^{
-            [item shouldNotBeNil];
-        });
-    });
-    
+	});
 });
 
 SPEC_END
-

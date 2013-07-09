@@ -10,7 +10,7 @@
 	<key>DefaultCompletionName</key>
 	<string>MyClass</string>
 	<key>Description</key>
-	<string>An Objective-C SenTestCase subclass, with basic structure set up</string>
+	<string>An Objective-C Kiwi spec, with basic structure set up</string>
 	<key>Kind</key>
 	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
 	<key>MainTemplateFile</key>
